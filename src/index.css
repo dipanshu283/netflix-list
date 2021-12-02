@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
+*
+{ margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.mainHeading{
+  color: rgb(103, 5, 5);
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin: 50px;
+  background-color: rgba(209, 174, 174, 0.548);
+  display: inline;
+  padding: 10px;
+  border-radius: 15px;
+}
+.headingDiv{
+  align-items: center;
+  justify-content: center;
+ display: flex;
+}
+
+.imgWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 30px;
+
+}
+/* .spann{
+  color: green;
+} */
+.imgWrapper img{
+
+ width: 300px;
+ margin: 10px;
+}
+
