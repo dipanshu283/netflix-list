@@ -1,7 +1,12 @@
 
 function Card(props) {
+
+
+ 
+
+
     return (
-      <>
+      <> 
         <div className="cards">
           <div className="card">
             <img src={props.img_scr} alt="netflix" className="img" />
